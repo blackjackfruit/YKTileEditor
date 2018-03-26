@@ -64,7 +64,7 @@ public class TileEditor: NSView {
     public var startingPosition = 0
     // The currently displayed tile number for that tile 
     public var tileIDs: [Int] = []
-    public var lineWidthForTiles: CGFloat = 0.9
+    public var lineWidthForTiles: CGFloat = 2.0
     public var lineWidthForPixels: CGFloat = 0.01
     public var pixelsPerTile: Int {
         guard let numberOfPixels = tileData?.consoleType.numberOfPixels() else {
@@ -80,6 +80,11 @@ public class TileEditor: NSView {
         }
         
         return numberOfPixels
+    }
+    public var lineColorBetweenTiles = NSColor.black {
+        didSet {
+            self.needsDisplay = true
+        }
     }
     
     // Since the TileViewEditor is a square, we don't need to do anything different for computing x/y starting positions
@@ -157,8 +162,7 @@ extension TileEditor {
         
         self.clearBitmapCanvas()
         
-        
-        needsDisplay = true
+        self.needsDisplay = true
     }
     
     internal func drawTileData(ctx: CGContext) {
@@ -190,7 +194,7 @@ extension TileEditor {
                                  width: pixelWidthAndHeight,
                                  height: pixelWidthAndHeight)
                 ctx.addRect(box)
-                ctx.setStrokeColor(NSColor.black.cgColor)
+                ctx.setStrokeColor(self.lineColorBetweenTiles.cgColor)
                 ctx.drawPath(using: .fillStroke)
                 
                 gridCursorX += pixelWidthAndHeight
@@ -213,7 +217,7 @@ extension TileEditor {
                                  height: dimensionOfTile)
                 ctx.addRect(box)
                 ctx.setLineWidth(self.lineWidthForTiles)
-                ctx.setStrokeColor(NSColor.black.cgColor)
+                ctx.setStrokeColor(self.lineColorBetweenTiles.cgColor)
                 ctx.drawPath(using: .fillStroke)
                 
                 gridCursorX += dimensionOfTile
