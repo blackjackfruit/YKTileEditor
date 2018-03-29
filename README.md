@@ -4,7 +4,9 @@
 [![IDE Xcode9](https://img.shields.io/badge/IDE-Xcode9-blue.svg)](https://developer.apple.com/xcode/)
 [![OS macOS](https://img.shields.io/badge/OS-macOS-brightgreen.svg)](https://www.apple.com)
 
-TileEditor is a framework for creating and editing data files for CHR and roms on macOS. TileEditor was written separate the framework code from a specific application. The TileEditor.framework has three apps which demonstrate the different facets of how to use the TileEditor framework.
+TileEditor is a framework for creating and editing data files for nes graphics (CHR files) and roms on macOS. TileEditor was separated from the TileEditorPro application so to allow integration into other application (ConsoleIDE).
+
+The TileEditor.framework has three apps which demonstrate the different facets of how to use the TileEditor framework. The three applications provide a simplification of palettes (color selection), pixel editor, and viewing nes graphics and roms.
 
 Project is written using Swift4.
 
@@ -16,7 +18,5 @@ To get this project to compile, cocoapods will be needed.
 
 ### TODO:
 * Add support for other platforms (gba, snes, genesis, etc.)
-* Project settings
-    * Allow the change of the number of tiles selectable (zooming scale 1x, 2x, 4x) at a time.
 * More options for painting such as fill, square, lines, etc.
 * Need to write Unit Tests.
