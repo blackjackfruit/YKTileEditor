@@ -1,5 +1,10 @@
+source 'https://github.com/yellokrow/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
-target 'TileEditor' do
+
+platform :osx, 10.11
+target 'YKTileEditor' do
 	pod 'XCGLogger'
-	pod 'Utilities', :path => 'Utilities/'
+	pod 'YKUtilities'
 end

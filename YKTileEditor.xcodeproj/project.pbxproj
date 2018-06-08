@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3FEA00F85CDD1AAB565D53A /* Pods_TileEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB15C98C629EFDC1CC48954 /* Pods_TileEditor.framework */; };
+		931D01748A69AC915649B767 /* Pods_YKTileEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */; };
 		D17BA6FF1E9DD450006047FC /* TileEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D17BA6FD1E9DD450006047FC /* TileEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D17BA7061E9DD4A3006047FC /* TileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BA7051E9DD4A3006047FC /* TileData.swift */; };
 		D17BA7081E9DD500006047FC /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BA7071E9DD500006047FC /* Factories.swift */; };
@@ -23,9 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2724544FE85F0BAEE9E396F7 /* Pods-TileEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-TileEditor/Pods-TileEditor.release.xcconfig"; sourceTree = "<group>"; };
-		CD447F729259248F948E4C66 /* Pods-TileEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TileEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TileEditor/Pods-TileEditor.debug.xcconfig"; sourceTree = "<group>"; };
-		D17BA6FA1E9DD450006047FC /* TileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKTileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		D17BA6FA1E9DD450006047FC /* YKTileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKTileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17BA6FD1E9DD450006047FC /* TileEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileEditor.h; sourceTree = "<group>"; };
 		D17BA6FE1E9DD450006047FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D17BA7051E9DD4A3006047FC /* TileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileData.swift; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		D17BA7101E9DD5E8006047FC /* TileItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TileItem.xib; sourceTree = "<group>"; };
 		D17BA71C1E9DD6B2006047FC /* PaletteFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteFactory.swift; sourceTree = "<group>"; };
 		D17BA71E1E9DD6D9006047FC /* ConsoleDataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleDataFactory.swift; sourceTree = "<group>"; };
-		FBB15C98C629EFDC1CC48954 /* Pods_TileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,49 +47,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FEA00F85CDD1AAB565D53A /* Pods_TileEditor.framework in Frameworks */,
+				931D01748A69AC915649B767 /* Pods_YKTileEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B26E2B2B974D677EBDA0247 /* Pods */ = {
+		282F88C8EF854950E9E80D56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD447F729259248F948E4C66 /* Pods-TileEditor.debug.xcconfig */,
-				2724544FE85F0BAEE9E396F7 /* Pods-TileEditor.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C99B5EB93917E09C1F547934 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FBB15C98C629EFDC1CC48954 /* Pods_TileEditor.framework */,
+				6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		736672CA0D62360ADFE10BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */,
+				D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D17BA6F01E9DD450006047FC = {
 			isa = PBXGroup;
 			children = (
-				D17BA6FC1E9DD450006047FC /* TileEditor */,
+				D17BA6FC1E9DD450006047FC /* YKTileEditor */,
 				D17BA6FB1E9DD450006047FC /* Products */,
-				9B26E2B2B974D677EBDA0247 /* Pods */,
-				C99B5EB93917E09C1F547934 /* Frameworks */,
+				736672CA0D62360ADFE10BA8 /* Pods */,
+				282F88C8EF854950E9E80D56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D17BA6FB1E9DD450006047FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D17BA6FA1E9DD450006047FC /* TileEditor.framework */,
+				D17BA6FA1E9DD450006047FC /* YKTileEditor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D17BA6FC1E9DD450006047FC /* TileEditor */ = {
+		D17BA6FC1E9DD450006047FC /* YKTileEditor */ = {
 			isa = PBXGroup;
 			children = (
 				D17BA7201E9DD717006047FC /* Processor */,
@@ -101,7 +101,7 @@
 				D17BA6FD1E9DD450006047FC /* TileEditor.h */,
 				D17BA6FE1E9DD450006047FC /* Info.plist */,
 			);
-			path = TileEditor;
+			path = YKTileEditor;
 			sourceTree = "<group>";
 		};
 		D17BA7171E9DD604006047FC /* BoxSelectors */ = {
@@ -171,24 +171,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D17BA6F91E9DD450006047FC /* TileEditor */ = {
+		D17BA6F91E9DD450006047FC /* YKTileEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D17BA7021E9DD450006047FC /* Build configuration list for PBXNativeTarget "TileEditor" */;
+			buildConfigurationList = D17BA7021E9DD450006047FC /* Build configuration list for PBXNativeTarget "YKTileEditor" */;
 			buildPhases = (
-				66CEB9DA9473C8B8845CBBAE /* [CP] Check Pods Manifest.lock */,
+				168930F1C825959722FE4104 /* [CP] Check Pods Manifest.lock */,
 				D17BA6F51E9DD450006047FC /* Sources */,
 				D17BA6F61E9DD450006047FC /* Frameworks */,
 				D17BA6F71E9DD450006047FC /* Headers */,
 				D17BA6F81E9DD450006047FC /* Resources */,
-				12F8A62287AE1A88322D082C /* [CP] Copy Pods Resources */,
+				11A2151358A91D38C4994217 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TileEditor;
+			name = YKTileEditor;
 			productName = TileEditor;
-			productReference = D17BA6FA1E9DD450006047FC /* TileEditor.framework */;
+			productReference = D17BA6FA1E9DD450006047FC /* YKTileEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D17BA6F41E9DD450006047FC /* Build configuration list for PBXProject "TileEditor" */;
+			buildConfigurationList = D17BA6F41E9DD450006047FC /* Build configuration list for PBXProject "YKTileEditor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D17BA6F91E9DD450006047FC /* TileEditor */,
+				D17BA6F91E9DD450006047FC /* YKTileEditor */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +236,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12F8A62287AE1A88322D082C /* [CP] Copy Pods Resources */ = {
+		11A2151358A91D38C4994217 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,10 +248,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TileEditor/Pods-TileEditor-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66CEB9DA9473C8B8845CBBAE /* [CP] Check Pods Manifest.lock */ = {
+		168930F1C825959722FE4104 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +262,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TileEditor-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-YKTileEditor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,7 +390,7 @@
 		};
 		D17BA7031E9DD450006047FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD447F729259248F948E4C66 /* Pods-TileEditor.debug.xcconfig */;
+			baseConfigurationReference = 8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -400,11 +400,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = TileEditor/Info.plist;
+				INFOPLIST_FILE = YKTileEditor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.TileEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.YKTileEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -414,7 +414,7 @@
 		};
 		D17BA7041E9DD450006047FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2724544FE85F0BAEE9E396F7 /* Pods-TileEditor.release.xcconfig */;
+			baseConfigurationReference = D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -424,11 +424,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = TileEditor/Info.plist;
+				INFOPLIST_FILE = YKTileEditor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.TileEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yellokrow.YKTileEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -438,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D17BA6F41E9DD450006047FC /* Build configuration list for PBXProject "TileEditor" */ = {
+		D17BA6F41E9DD450006047FC /* Build configuration list for PBXProject "YKTileEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D17BA7001E9DD450006047FC /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D17BA7021E9DD450006047FC /* Build configuration list for PBXNativeTarget "TileEditor" */ = {
+		D17BA7021E9DD450006047FC /* Build configuration list for PBXNativeTarget "YKTileEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D17BA7031E9DD450006047FC /* Debug */,

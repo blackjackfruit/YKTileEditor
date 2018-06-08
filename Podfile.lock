@@ -2,26 +2,22 @@ PODS:
   - ObjcExceptionBridging (1.0.1):
     - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
   - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
-  - Utilities (0.1.0):
-    - XCGLogger
   - XCGLogger (6.0.2):
     - XCGLogger/Core (= 6.0.2)
   - XCGLogger/Core (6.0.2):
     - ObjcExceptionBridging
+  - YKUtilities (0.1.0):
+    - XCGLogger (~> 6.0.2)
 
 DEPENDENCIES:
-  - Utilities (from `Utilities/`)
   - XCGLogger
-
-EXTERNAL SOURCES:
-  Utilities:
-    :path: Utilities/
+  - YKUtilities
 
 SPEC CHECKSUMS:
   ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
-  Utilities: b567f4b247387a0deb9e0a251a5099afa7576575
   XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
+  YKUtilities: 0409f80e62d7e54ae1eb97f5ce8cd83770598417
 
-PODFILE CHECKSUM: 9ce4bbe8a8289b318c0588febc313d7360c7d31a
+PODFILE CHECKSUM: e73f3e3f643e181e0fddbf0f875456da5ab83f2b
 
 COCOAPODS: 1.4.0
