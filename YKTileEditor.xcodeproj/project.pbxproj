@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931D01748A69AC915649B767 /* Pods_YKTileEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */; };
+		0637C87F4BA2FA8B0F3CB195 /* Pods_YKTileEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0ED04E7E6445DA516D3E0E /* Pods_YKTileEditor.framework */; };
 		D17BA6FF1E9DD450006047FC /* TileEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D17BA6FD1E9DD450006047FC /* TileEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D17BA7061E9DD4A3006047FC /* TileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BA7051E9DD4A3006047FC /* TileData.swift */; };
 		D17BA7081E9DD500006047FC /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17BA7071E9DD500006047FC /* Factories.swift */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKTileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0ED04E7E6445DA516D3E0E /* Pods_YKTileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKTileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		602E20115F7A20D29967CF95 /* Pods-YKTileEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.debug.xcconfig"; sourceTree = "<group>"; };
 		D17BA6FA1E9DD450006047FC /* YKTileEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YKTileEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17BA6FD1E9DD450006047FC /* TileEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileEditor.h; sourceTree = "<group>"; };
 		D17BA6FE1E9DD450006047FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		D17BA7101E9DD5E8006047FC /* TileItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TileItem.xib; sourceTree = "<group>"; };
 		D17BA71C1E9DD6B2006047FC /* PaletteFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteFactory.swift; sourceTree = "<group>"; };
 		D17BA71E1E9DD6D9006047FC /* ConsoleDataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleDataFactory.swift; sourceTree = "<group>"; };
-		D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.release.xcconfig"; sourceTree = "<group>"; };
+		D6F588E331803FF093E870A9 /* Pods-YKTileEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKTileEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,28 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931D01748A69AC915649B767 /* Pods_YKTileEditor.framework in Frameworks */,
+				0637C87F4BA2FA8B0F3CB195 /* Pods_YKTileEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282F88C8EF854950E9E80D56 /* Frameworks */ = {
+		88000DD34741F0D2A82B2CBD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6AFA6F15ED04B95550DC336E /* Pods_YKTileEditor.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		736672CA0D62360ADFE10BA8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */,
-				D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */,
+				602E20115F7A20D29967CF95 /* Pods-YKTileEditor.debug.xcconfig */,
+				D6F588E331803FF093E870A9 /* Pods-YKTileEditor.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1FBCFF9F15699B384C295DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0ED04E7E6445DA516D3E0E /* Pods_YKTileEditor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D17BA6F01E9DD450006047FC = {
@@ -76,8 +76,8 @@
 			children = (
 				D17BA6FC1E9DD450006047FC /* YKTileEditor */,
 				D17BA6FB1E9DD450006047FC /* Products */,
-				736672CA0D62360ADFE10BA8 /* Pods */,
-				282F88C8EF854950E9E80D56 /* Frameworks */,
+				88000DD34741F0D2A82B2CBD /* Pods */,
+				A1FBCFF9F15699B384C295DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,12 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D17BA7021E9DD450006047FC /* Build configuration list for PBXNativeTarget "YKTileEditor" */;
 			buildPhases = (
-				168930F1C825959722FE4104 /* [CP] Check Pods Manifest.lock */,
+				CC351AB304C4351ADCA85CA4 /* [CP] Check Pods Manifest.lock */,
 				D17BA6F51E9DD450006047FC /* Sources */,
 				D17BA6F61E9DD450006047FC /* Frameworks */,
 				D17BA6F71E9DD450006047FC /* Headers */,
 				D17BA6F81E9DD450006047FC /* Resources */,
-				11A2151358A91D38C4994217 /* [CP] Copy Pods Resources */,
+				CFA9975DC4C80FF8BEAA7E2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,22 +236,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11A2151358A91D38C4994217 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		168930F1C825959722FE4104 /* [CP] Check Pods Manifest.lock */ = {
+		CC351AB304C4351ADCA85CA4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,6 +252,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA9975DC4C80FF8BEAA7E2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YKTileEditor/Pods-YKTileEditor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -390,7 +390,7 @@
 		};
 		D17BA7031E9DD450006047FC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8509232EEE48750E84BC0F0C /* Pods-YKTileEditor.debug.xcconfig */;
+			baseConfigurationReference = 602E20115F7A20D29967CF95 /* Pods-YKTileEditor.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -414,7 +414,7 @@
 		};
 		D17BA7041E9DD450006047FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97EC5147ED316913E758F12 /* Pods-YKTileEditor.release.xcconfig */;
+			baseConfigurationReference = D6F588E331803FF093E870A9 /* Pods-YKTileEditor.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

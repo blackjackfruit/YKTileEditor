@@ -1,19 +1,20 @@
 //
 //  ViewController.swift
-//  NESPalettes
+//  GamePalettes
 //
 //  Created by iury bessa on 4/12/17.
 //  Copyright © 2017 yellokrow. All rights reserved.
 //
 
 import Cocoa
-import TileEditor
+import YKTileEditor
 
 class ViewController: NSViewController, BoxSelectorDelegate {
     
     @IBOutlet weak var colorSelector: ColorSelector?
     @IBOutlet weak var paletteSelector: PaletteSelector?
     @IBOutlet weak var generalSelectableColors: GeneralColorSelector?
+    var previouslySetSelectablePalette = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +33,6 @@ class ViewController: NSViewController, BoxSelectorDelegate {
         self.generalSelectableColors?.redraw()
     }
     
-    
-    var previouslySetSelectablePalette = 0
     func selected(boxSelector: BoxSelector, palette: (number: Int, box: Int), boxSelected: (x: Int, y: Int)) {
         
         guard

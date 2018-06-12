@@ -1,5 +1,7 @@
-
 use_frameworks!
+
+platform :osx, 10.11
+
 target 'TileViewer' do
-  pod 'TileEditor', :path =>  '../../'
+  pod 'YKTileEditor', :path =>  '../../'
 end

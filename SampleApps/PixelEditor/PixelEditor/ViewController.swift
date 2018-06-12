@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import TileEditor
+import YKTileEditor
 
 class ViewController: NSViewController, BoxSelectorDelegate, TileEditorDataSource {
     @IBOutlet weak var pixelEditor: TileEditor?

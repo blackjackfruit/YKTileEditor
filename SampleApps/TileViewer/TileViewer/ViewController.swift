@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import TileEditor
+import YKTileEditor
 
 class ImportFile {
     static func file(path: String) -> Data? {
@@ -17,7 +17,6 @@ class ImportFile {
 }
 
 class ViewController: NSViewController, TileCollectionDelegate {
-
     @IBOutlet weak var tileCollection: TileCollection?
     var tileData: TileData? = nil
     
